@@ -1,0 +1,67 @@
+.weather-box {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #2478d9;
+    background: #348aed;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    position: relative;
+    resize: both;
+    overflow: auto;
+    border-radius: 10px;
+}
+
+.weather-box figure {
+    width: 30%;
+    height: 30%;
+    margin-left: auto;
+}
+
+.weather-box figure img {
+    width: 100%;
+}
+
+.weather-box .temp {
+    font-size: 2em;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.weather-box .temp sup {
+    vertical-align: top;
+}
+
+.weather-box .temp-desc {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.weather-box .temp-location {
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.weather-box .temp-location svg {
+    font-size: 0.8em;
+    margin-right: 5px;
+    vertical-align: baseline;
+}
+
+.drag-cursor {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+.drag-cursor svg {
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.draggableDiv{
+    display: inline-block;
+    position: absolute;
+}
